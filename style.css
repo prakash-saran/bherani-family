@@ -1,0 +1,51 @@
+
+
+body {
+    background-color: rgba(143, 120, 173, .5);
+}
+h1 {
+    color: greenyellow;
+    text-align: center;
+    background-color: black;
+}
+
+li {
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(71, 116, 19, .5); 
+    color: rgb(4, 31, 55);
+    padding: 2px;
+    border: 2px solid black;
+    margin: 2px
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+img {
+    width 400px;
+    height: 400px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
+
+.liststyle {
+    background-color: rgba(17, 19, 158, 0.384);
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+}
+
